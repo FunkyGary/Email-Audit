@@ -2,13 +2,16 @@
   "name": "react-app",
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://FunkyGary.github.io/Email-Audit",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 5050",
     "preview": "vite preview",
-    "validate": "tsc --noEmit --checkJs"
+    "validate": "tsc --noEmit --checkJs",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "lodash-es": "^4.17.21",
     "styled-components": "^6.1.1"
   },
